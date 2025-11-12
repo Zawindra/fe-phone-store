@@ -46,9 +46,10 @@ export default function DashboardUser() {
       </div>
 
       {/* Table Section */}
-      <div className="bg-white/80 backdrop-blur-md border border-white/50 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 p-6">
-        <DataTable columns={columns} data={users} />
+      <div className="bg-white-50/70 backdrop-blur-md border border-gray-200 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 p-6">
+          <DataTable columns={columns} data={users} />
       </div>
+
     </LayoutDashboard>
   );
 }
